@@ -1,0 +1,10 @@
+01. npm install 
+02. For getting typings installed globally on the PC
+    In admin cmd - npm install typings --global
+03. For updating to the latest typings lib
+    a. typings install dt~core-js --save --global
+    b. typings install dt~node --save --global
+04. For bower
+    bower install
+05. rxjs path and packages
+    node .\rxModuleBuilder.js

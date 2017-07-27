@@ -1,0 +1,55 @@
+dependencies
+{
+	@angular/*
+		These packages provide the Angular functionality, which is split into separate
+		modules. Each module provides a different set of features, and the modules
+		in. I add other modules in later chapters to support specific features, such as working with
+		HTML forms.
+	reflect-metadata
+		This package implements a reflection API that is used to inspect decorators on classes.
+	rxjs
+		This is the Reactive Extensions package, which is used to implement the
+		Angular change-detection system that is used in data bindings, and used directly for some Angular features.
+	zone.js
+		This is the Zone.js package, which provides an execution context for
+		asynchronous tasks and is used to evaluate template expressions.
+	core-js
+		The Core-JS package provides support for new JavaScript features for
+		browsers that don’t implement them. See https://github.com/zloirock/
+		core-js for details.
+	classlist.js
+		This package provides missing features required for IE9.
+	systemjs
+		This package is the module loader, which is described in the “Configuring the
+		JavaScript Module Loader” section.	
+}
+devDependencies
+{
+	lite-server
+		This is the package that provides the development HTTP server used
+		throughout this book. See the “Configuring the Development HTTP Server”
+		section for details.
+	typescript
+		This is the package that provides TypeScript language support, including the
+		compiler. See the “Setting Up TypeScript” section for details.
+	typings
+		This is the package that provides type information for popular JavaScript
+		packages so they can be used more conveniently with TypeScript. See the
+		“Setting Up TypeScript” section for details.
+	concurrently
+		This package allows multiple commands to be run by npm at the same time.
+		See the “Starting the Watch Processes” section for details.
+}
+The @NgModule Decorator Root Module Properties
+	imports
+		This property specifies the Angular modules that are required to support the
+		directives, components, and pipes in the application.
+	declarations
+		This property is used to specify the directives, components, and pipes that are used in
+		the application.
+	providers
+		This property defines the service providers that will be used by the module’s injector.
+		These are the providers that will be available throughout the application and used
+		when no local provider for a service is available.
+	bootstrap
+		This property specifies the root components for the application.

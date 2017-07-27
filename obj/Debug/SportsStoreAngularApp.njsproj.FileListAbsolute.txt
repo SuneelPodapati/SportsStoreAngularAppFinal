@@ -1,0 +1,2 @@
+D:\Storage\AngularJS\AngularJS2\SportsStoreAngularSolution\SportsStoreAngularApp\obj\Debug\SportsStoreAngularApp.njsprojResolveAssemblyReference.cache
+D:\Storage\AngularJS\AngularJS2\SportsStoreAngularSolution\SportsStoreAngularApp\bin\Microsoft.NodejsTools.WebRole.dll
